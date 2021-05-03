@@ -8,7 +8,7 @@
   <link rel="stylesheet" href="/css/style.css">
 </head>
 <body>
-  <main>
+  <main class="scene scene-{% if page.fileSlug %}{{ page.fileSlug }}{% else %}main{% endif %}">
     {{ content | safe }}
 	</main>
   

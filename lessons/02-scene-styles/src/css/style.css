@@ -36,12 +36,17 @@ h1 {
   font-weight: 500;
 }
 
+h2 {
+  font-size: 4rem;
+  text-align: center;
+}
+
 .cta {
   background-color: var(--color-primary);
   color: var(--color-surface);
   padding: 0.5em 0.25em;
   font-size: 1.125rem;
-} 
+}
 
 .commands {
   list-style: none;
@@ -49,4 +54,28 @@ h1 {
   padding: 0;
   display: flex;
   gap: 1rem;
+}
+
+/* Scenes */
+.scene {
+  display: grid;
+}
+
+.scene-main {
+  grid-template-columns: 1fr 240px;
+}
+
+.scene-preshow {
+  background-color: var(--color-primary);
+  place-content: center;
+  color: var(--color-surface);
+}
+
+.host-webcam {
+  /* background-color: var(--color-primary); */
+  background-image: radial-gradient(
+    circle at center,
+    transparent 35%,
+    var(--color-primary) 35.5%
+  );
 }
