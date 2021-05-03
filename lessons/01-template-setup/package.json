@@ -1,0 +1,24 @@
+{
+  "name": "01-template-setup",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx @11ty/eleventy --serve --port=8090",
+    "build": "npx @11ty/eleventy"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/5t3ph/egghead-twitch-scenes.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/5t3ph/egghead-twitch-scenes/issues"
+  },
+  "homepage": "https://github.com/5t3ph/egghead-twitch-scenes#readme",
+  "dependencies": {
+    "@11ty/eleventy": "^0.12.1"
+  }
+}
