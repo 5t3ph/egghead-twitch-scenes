@@ -8,6 +8,21 @@
   <link rel="stylesheet" href="/css/style.css">
 </head>
 <body>
-  <h1>{{ title }}</h1>
+  <main>
+    {{ content | safe }}
+	</main>
+  
+	<header>
+		<section class="details">
+			<h1>{{ stream.title }}</h1>
+			<p>{{ stream.description }}</p>
+			<strong class="cta">{{ stream.cta }}</strong>
+			<ul class="commands">
+				{% for command in stream.chatCommands %}
+				<li>!{{ command }}</li>
+				{% endfor %}
+			</ul>
+		</section>
+	</header>
 </body>
 </html>
