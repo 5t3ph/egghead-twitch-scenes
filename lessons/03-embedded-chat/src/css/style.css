@@ -19,6 +19,8 @@ body {
 }
 
 header {
+  display: grid;
+  grid-template-columns: 40ch 1fr;
   background-color: var(--color-surface);
   padding: 1rem 1.5rem;
   border-top: 3px solid var(--color-primary);
@@ -78,4 +80,32 @@ h2 {
     transparent 35%,
     var(--color-primary) 35.5%
   );
+}
+
+#chatbox {
+  position: relative;
+  overflow: hidden;
+  height: 128px;
+  width: 100%;
+  padding: 1rem;
+  font-size: 0.9rem;
+  color: var(--color-text);
+  font-weight: normal;
+  font-family: system-ui, sans-serif;
+  line-height: 1.4;
+  border-left: 1px dashed;
+}
+
+#chatbox strong {
+  color: var(--color-primary);
+}
+
+#chatter {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: grid;
+  gap: 0.5rem;
+  padding: 1rem;
 }
