@@ -10,6 +10,8 @@
 <body>
   <main class="scene scene-{% if page.fileSlug %}{{ page.fileSlug }}{% else %}main{% endif %}">
     {{ content | safe }}
+
+		
 	</main>
   
 	<header>
@@ -32,7 +34,7 @@
 			</div>
 		</section>
 	</header>
-
 	{% include "comfyjs/include.njk" %}
+	{% include "commands.njk" %}
 </body>
 </html>
