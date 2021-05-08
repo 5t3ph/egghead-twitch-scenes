@@ -7,7 +7,6 @@ You'll learn how to:
 - setup scenes with Eleventy as the build tool
 - use ComfyJS to embed chat and respond to chat commands
 - run the scenes locally and display in OBS
-- include live captions in your stream
 
 The `lessons` directory includes the progressive build steps for each lesson in the egghead course.
 
