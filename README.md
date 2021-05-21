@@ -1,6 +1,6 @@
 # Develop Custom Twitch Scenes and Setup in OBS
 
-These are the supporting files for the egghead course.
+These are the supporting files for **[the egghead course](https://5t3ph.dev/ets)**.
 
 You'll learn how to:
 
@@ -9,6 +9,9 @@ You'll learn how to:
 - run the scenes locally and display in OBS
 
 The `lessons` directory includes the progressive build steps for each lesson in the egghead course.
+
+📺 **[Get started on the course >](https://5t3ph.dev/ets)**
+_Requires an egghead membership_
 
 ## Course Scripts
 
